@@ -1,3 +1,4 @@
+//reverse array without using splice, reverse, and join method
 let stringArr = []
 let newArr = []
 let word = ''
@@ -39,5 +40,17 @@ function join(newArr) {
 
 join(newArr);
 console.log(word)
+
+
+//reverse array with splice, reverse, and join method
+
+let splitString = "hello".split("");
+console.log(splitString);
+
+let reverseString = splitString.reverse();
+console.log(reverseString);
+
+let joinString = reverseString.join("");
+console.log(joinString)
 
 
